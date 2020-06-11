@@ -1,0 +1,23 @@
+site_name: DCC++ EX
+
+theme:
+  name: material
+  features:
+    - instant
+    - tabs
+  language: en
+  logo: images/logo.png
+  favicon: images/logo.png
+repo_name: DCC-EX/dcc-ex.github.io
+repo_url: https://github.com/DCC-EX/dcc-ex.github.io
+nav:
+  - Home: 'index.md'
+  - Getting Started:
+    - Starter Kit: 'starter-kit.md'
+    - Assembly: 'assembly.md'
+  - Hardware:
+    - Power Supplies: 'power-supplies.md'
+
+markdown_extensions:
+  - admonition
+  - codehilite
