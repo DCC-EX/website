@@ -8,8 +8,8 @@ theme:
   language: en
   logo: images/logo.png
   favicon: images/logo.png
-repo_name: DCC-EX/dcc-ex.github.io
-repo_url: https://github.com/DCC-EX/dcc-ex.github.io
+repo_name: DCC-EX/website
+repo_url: https://github.com/DCC-EX/website
 nav:
   - Home: 'index.md'
   - Getting Started:
