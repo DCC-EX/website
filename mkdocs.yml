@@ -31,7 +31,7 @@ nav:
     - Command Station: 'api.md'
   - Develop:
     - Base Station: 'da.md'
-  - Tinkerer:
+  - Tinker:
     - Contribute: 'tc.md'
   - Resources:
     - Resources: 'resources.md'
