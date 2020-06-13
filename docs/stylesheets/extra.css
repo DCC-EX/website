@@ -29,3 +29,8 @@
         padding:10px 50px;
     }
 }
+@media screen and (min-width: 76.25em){ 
+    .md-tabs--active ~ .md-main .md-nav--primary .md-nav__title {
+        height: 2rem;
+    }
+}
