@@ -1,4 +1,4 @@
-# Tinkerers court
+# Tinkerers
 
 *Work in progress*
 
