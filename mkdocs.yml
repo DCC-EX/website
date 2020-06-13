@@ -29,9 +29,9 @@ nav:
     - Power Supplies: 'power-supplies.md'
   - API:
     - Command Station: 'api.md'
-  - Developers Arena:
+  - Develop:
     - Base Station: 'da.md'
-  - Tinkerers Court:
+  - Tinkerer:
     - Contribute: 'tc.md'
   - Resources:
     - Resources: 'resources.md'
