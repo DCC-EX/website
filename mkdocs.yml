@@ -39,7 +39,6 @@ nav:
     - DCC++ Basestation: 'downloads.md'
     - Materials: 'downloads.md'
     
-edit_uri: ''
 markdown_extensions: 
   - admonition
   - codehilite
