@@ -15,29 +15,29 @@ nav:
     - About: 'index.md'
   - Getting Started:
     - Starter Kit: 'starter-kit.md'
-    - Assembly: 'starter-kit.md'
-    - Basic Setup: 'starter-kit.md'
-    - Installer Setup: 'starter-kit.md'
-    - Advanced Setup: 'starter-kit.md'
-    - DCC++ EX & JMRI: 'starter-kit.md'
-    - Rail Networking: 'starter-kit.md'
-    - Automation: 'starter-kit.md'
+    - Assembly: 'assembly.md'
+    - Basic Setup: 'basic-setup.md'
+    - Installer Setup: 'installer-setup.md'
+    - Advanced Setup: 'advanced-setup.md'
+    - DCC++ EX & JMRI: 'dccpp-jmri.md'
+    - Rail Networking: 'rail-networking.md'
+    - Automation: 'automation.md'
   - Hardware:
     - Microcontrollers: 'power-supplies.md'
-    - Motor Boards: 'power-supplies.md'
-    - I2C Displays: 'power-supplies.md'
+    - Motor Boards: 'motor-boards.md'
+    - I2C Displays: 'i2c-displays.md'
     - Power Supplies: 'power-supplies.md'
   - API:
-    - Command Station: 'api.md'
+    - Command Station: 'command-station-api.md'
   - Develop:
-    - Base Station: 'da.md'
+    - Base Station: 'base-station-dev.md'
   - Tinker:
-    - Contribute: 'tc.md'
+    - Contribute: 'tinkering.md'
   - Resources:
     - Resources: 'resources.md'
   - Downloads:
-    - DCC++ Basestation: 'downloads.md'
-    - Materials: 'downloads.md'
+    - DCC++ Basestation: 'dccex-downloads.md'
+    - Materials: 'dccex-materials-downloads.md'
     
 markdown_extensions: 
   - admonition
