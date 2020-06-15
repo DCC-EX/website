@@ -1,4 +1,4 @@
-site_name: DCC++ EX
+site_name:  ""
 
 theme:
   name: material
@@ -6,18 +6,41 @@ theme:
     - instant
     - tabs
   language: en
-  logo: images/logo.png
+  logo: images/logo3.png
   favicon: images/logo.png
 repo_name: DCC-EX/website
 repo_url: https://github.com/DCC-EX/website
 nav:
-  - Home: 'index.md'
+  - Home: 
+    - About: 'index.md'
   - Getting Started:
     - Starter Kit: 'starter-kit.md'
     - Assembly: 'assembly.md'
+    - Basic Setup: 'basic-setup.md'
+    - Installer Setup: 'installer-setup.md'
+    - Advanced Setup: 'advanced-setup.md'
+    - DCC++ EX & JMRI: 'dccpp-jmri.md'
+    - Rail Networking: 'rail-networking.md'
+    - Automation: 'automation.md'
   - Hardware:
+    - Microcontrollers: 'microcontrollers.md'
+    - Motor Boards: 'motor-boards.md'
+    - I2C Displays: 'i2c-displays.md'
     - Power Supplies: 'power-supplies.md'
-
-markdown_extensions:
+  - API:
+    - Command Station: 'command-station-api.md'
+  - Develop:
+    - Base Station: 'base-station-dev.md'
+  - Tinker:
+    - Tinker with DCC EX: 'tinkering.md'
+  - Resources:
+    - Resources: 'resources.md'
+  - Downloads:
+    - DCC++ Basestation: 'dccex-downloads.md'
+    - Materials: 'dccex-materials-downloads.md'
+    
+markdown_extensions: 
   - admonition
   - codehilite
+extra_css:
+  - stylesheets/extra.css
