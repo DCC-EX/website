@@ -23,7 +23,7 @@ nav:
     - Rail Networking: 'rail-networking.md'
     - Automation: 'automation.md'
   - Hardware:
-    - Microcontrollers: 'power-supplies.md'
+    - Microcontrollers: 'microcontrollers.md'
     - Motor Boards: 'motor-boards.md'
     - I2C Displays: 'i2c-displays.md'
     - Power Supplies: 'power-supplies.md'
@@ -32,7 +32,7 @@ nav:
   - Develop:
     - Base Station: 'base-station-dev.md'
   - Tinker:
-    - Contribute: 'tinkering.md'
+    - Tinker with DCC EX: 'tinkering.md'
   - Resources:
     - Resources: 'resources.md'
   - Downloads:
