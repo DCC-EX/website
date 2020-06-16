@@ -3,9 +3,6 @@ An open-source hardware and software platform for the operation<br/>
 of DCC-equipped model railroads.
 {: .descript}
 
-=======
-# Home
-
 ![welcome](images/home_welcm.png)
 
 Welcome to the DCC++ EX website. DCC++ EX is an open-source hardware and software platform for the operation of DCC-equipped model railroads. It is based on Gregg E. Berman's DCC++ code. DCC-EX picks up where the original DCC++ left off. By addressing some previous issues, we have released what we now call "DCC++ Classic" - everything you enjoyed in the original version in a stable release. In addition, we have have continued development with an all new version called "DCC-EX" that includes enhancements and upgrades. We intend to organize this all in one place so that development can continue and the platform can adjust to new hardware and technnology.
