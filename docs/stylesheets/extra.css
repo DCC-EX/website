@@ -23,42 +23,45 @@
 #welcome-to-the-dcc-ex.title{
     background: url(../images/home_welcm.png);
     background-repeat: no-repeat;
-    font-weight: bold;
-    opacity: 1;
+    font-weight: 400;
     color: #ffffff;
     text-align: center;
-    width:100%;
-    height: 130px;
+    max-width:688px;
+    height: 140px;
     padding-top: 70px;
+    margin: 0 auto;
     margin-bottom: 0;
     background-position: 0 0;
-    font-size: 2.2rem;
+    font-size: 2.12rem;
 }
 .md-typeset p.descript{
         background: url(../images/home_welcm.png);
-        background-position: 0px -130px;
+        background-position: 0px -140px;
         background-repeat: no-repeat;
-        opacity: 1;
         color: #ffffff;
         text-align: center;
-        width: 100%;
-        height: 120px;
+        max-width: 688px;
+        height: 140px;
         padding: 40px;
-        margin-top: 0;
+        margin: 0 auto;
         padding-top: 0px;
         font-size: 1.1em;
         line-height: 1.4em;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
 }
 
 @media screen and (max-width: 76.1875em){
     .md-nav--primary .md-nav__title .md-nav__icon {
         top: 0.9rem;
     }
-}
-@media screen and (max-width: 76.1875em){ 
     .md-nav--primary .md-nav__title {
         padding:10px 50px;
+    }
+    #welcome-to-the-dcc-ex.title{
+        font-size: 1.2rem;
+    }
+    .md-typeset p.descript{
+        font-size: 0.66rem;
     }
 }
 @media screen and (min-width: 76.25em){ 
