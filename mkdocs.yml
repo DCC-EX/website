@@ -19,7 +19,7 @@ nav:
     - Basic Setup: 'basic-setup.md'
     - Installer Setup: 'installer-setup.md'
     - Advanced Setup: 'advanced-setup.md'
-    - DCC++ EX & JMRI: 'dccpp-jmri.md'
+    - JMRI Setup: 'dccpp-jmri.md'
     - Rail Networking: 'rail-networking.md'
     - Automation: 'automation.md'
   - Hardware:
