@@ -1,4 +1,0 @@
-# Develop
-
-*Work in progress*
-
