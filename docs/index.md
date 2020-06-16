@@ -1,3 +1,9 @@
+# Welcome to DCC++ EX # {: .title}
+An open-source hardware and software platform for the operation<br/>
+of DCC-equipped model railroads.
+{: .descript}
+
+=======
 # Home
 
 ![welcome](images/home_welcm.png)

@@ -42,5 +42,6 @@ nav:
 markdown_extensions: 
   - admonition
   - codehilite
+  - attr_list
 extra_css:
   - stylesheets/extra.css
