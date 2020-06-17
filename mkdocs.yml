@@ -1,4 +1,4 @@
-site_name:  ""
+site_name:  "DCC++ EX"
 
 theme:
   name: material
@@ -6,15 +6,14 @@ theme:
     - tabs
     - instant
   language: en
-  logo: images/logo3.png
-  favicon: images/logo.png
+  logo: images/new-logo.png
+  favicon: images/new-logo.png
 
 repo_name: DCC-EX/website
 repo_url: https://github.com/DCC-EX/website
 
 nav:
-  - Home: 
-    - About: 'index.md'
+  - Home: 'index.md'   
   - Getting Started:
     - Starter Kit: 'start/starter-kit.md'
     - Assembly: 'start/assembly.md'
