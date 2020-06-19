@@ -4,7 +4,8 @@ There are many motor boards available to use with DCC++ EX. Also called "Dual-H 
 
 NOTE: We recommend the Arduino Motor Shield R3 or a supported clone board like the Deek-Robot ($15 US).
 
-![Deek Robot Motor Shield](..images/deek_robot1_sm.jpg)
+
+![Deek Robot Motor Shield](../images/deek_robot1_sm.jpg)
 
 
 ## Boards currently supported
