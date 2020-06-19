@@ -20,7 +20,12 @@ There are other boards, some requiring modification, which are covered in the ad
 
 ## Connecting an Arduino or Deek-Robot Motor Shield
 
-[Jumper Diagrams](..assets/motor_shield_pin_mappings.pdf)
+![Uno Jumper](../images/Motor_Shield_Pin_Map_Uno_200px.jpg)
+
+
+[Jumper Diagrams](../assets/motor-shield-pin-mappings.pdf) 
+
+The link above will open a PDF document that provides detail information on how to connect the most popular motor controllers to an Arduino.
 
 
 
