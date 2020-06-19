@@ -1,43 +1,44 @@
-site_name:  ""
+site_name:  "DCC++ EX"
 
 theme:
   name: material
   features:
-    - instant
     - tabs
+    - instant
   language: en
-  logo: images/logo3.png
-  favicon: images/logo.png
+  logo: images/new-logo.png
+  favicon: images/new-logo.png
+
 repo_name: DCC-EX/website
 repo_url: https://github.com/DCC-EX/website
+
 nav:
-  - Home: 
-    - About: 'index.md'
+  - Home: 'index.md'   
   - Getting Started:
-    - Starter Kit: 'starter-kit.md'
-    - Assembly: 'assembly.md'
-    - Basic Setup: 'basic-setup.md'
-    - Installer Setup: 'installer-setup.md'
-    - Advanced Setup: 'advanced-setup.md'
-    - JMRI Setup: 'dccpp-jmri.md'
-    - Rail Networking: 'rail-networking.md'
-    - Automation: 'automation.md'
+    - Starter Kit: 'start/starter-kit.md'
+    - Assembly: 'start/assembly.md'
+    - Basic Setup: 'start/basic-setup.md'
+    - Installer Setup: 'start/installer-setup.md'
+    - Advanced Setup: 'start/advanced-setup.md'
+    - JMRI Setup: 'start/dccpp-jmri.md'
+    - Rail Networking: 'start/rail-networking.md'
+    - Automation: 'start/automation.md'
   - Hardware:
-    - Microcontrollers: 'microcontrollers.md'
-    - Motor Boards: 'motor-boards.md'
-    - I2C Displays: 'i2c-displays.md'
-    - Power Supplies: 'power-supplies.md'
+    - Microcontrollers: 'hardware/microcontrollers.md'
+    - Motor Boards: 'hardware/motor-boards.md'
+    - I2C Displays: 'hardware/i2c-displays.md'
+    - Power Supplies: 'hardware/power-supplies.md'
   - API:
-    - Command Station: 'command-station-api.md'
+    - Command Station: 'api/command-station-api.md'
   - Develop:
-    - Base Station: 'base-station-dev.md'
+    - Base Station: 'develop/base-station-dev.md'
   - Tinker:
-    - Tinker with DCC EX: 'tinkering.md'
+    - Tinker with DCC EX: 'tinker/tinkering.md'
   - Resources:
-    - Resources: 'resources.md'
+    - Resources: 'resources/resources.md'
   - Downloads:
-    - DCC++ Basestation: 'dccex-downloads.md'
-    - Materials: 'dccex-materials-downloads.md'
+    - DCC++ Basestation: 'download/dccex-downloads.md'
+    - Materials: 'download/dccex-materials-downloads.md'
     
 markdown_extensions: 
   - admonition
