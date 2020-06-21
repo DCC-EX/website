@@ -64,6 +64,6 @@ You can get support for DCC++ EX at either of the above links including live sup
 * Sumner - Utah, USA (Sumner)
 * Larry Dribin - (H0Guy)
 * Paul - Virginia USA (Paul1361)
-* - Paris France (grbba)
+* Paris France (grbba)
 
 
