@@ -20,7 +20,7 @@
     height: 1.8rem;
 }
 
-#welcome-to-dcc-ex.title{
+.md-typeset .title{
     background: url(../images/home_welcm.png);
     background-repeat: no-repeat;
     font-weight: 400;
@@ -34,7 +34,7 @@
     background-position: 0 0;
     font-size: 2.12rem;
 }
-.md-typeset p.descript{
+.md-typeset .descript{
     background: url(../images/home_welcm.png);
     background-position: 0px -140px;
     background-repeat: no-repeat;
@@ -57,10 +57,10 @@
     .md-nav--primary .md-nav__title {
         padding:10px 50px;
     }
-    #welcome-to-the-dcc-ex.title{
+    .md-typeset .title{
         font-size: 1.2rem;
     }
-    .md-typeset p.descript{
+    .md-typeset .descript{
         font-size: 0.66rem;
     }
 }
