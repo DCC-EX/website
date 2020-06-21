@@ -10,7 +10,7 @@ Most larger scales will run higher voltages. For reference, the Digitrax systems
 
 ## Amperage
 
-You'll need to be able to supply 3A per channel that you intend to run trains on, assuming you're using the Arduino motor shield or Pololu motor shield. For larger motor driver shields, you'll want a larger power supply.
+You'll need to be able to supply 3A per channel to the tracks on which you intend to run trains, assuming you're using the Arduino motor shield or Pololu motor shield. For larger motor driver shields, you'll want a larger power supply.
 
 ## Recommended Power Supplies
 
