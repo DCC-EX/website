@@ -13,7 +13,7 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
 - A "programming" track or "service" track - a short section of track that you will use to program locomotives and other pieces of equipment
 - A known-good locomotive equipped with a DCC decoder
 
-![DCC++ Overview](images/dccpp_starter.png)
+![DCC++ Overview](../images/dccpp_starter.png)
 
 ### Equipment List:
 
@@ -27,7 +27,7 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
   * Arduino Motor Driver Shield Rev 3 (clones work too)
   * Pololu MC33926 Dual Motor Driver Shield (https://www.pololu.com/product/2503)
   * Other boards listed in the hardware section
-* DC Power Supply (see [Power Supplies](power-supplies.md)) 
+* DC Power Supply (see [Power Supplies](../hardware/power-supplies.md)) 
 * USB A to B Cable (aka USB Printer Cable)
 * Computer to act as a controller to the Arduino Base Station \*
 
