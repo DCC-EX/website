@@ -7,11 +7,12 @@ First, a special thanks to Gregg E. Berman who had the original idea for a model
 What you see available for download here represents a complete rewrite of the code and the concept of what we (and what you tell us) DCC++ EX needs to be. You can seek us out here:
 
 [TrainBoard DCC++ Forum](https://www.trainboard.com/highball/index.php?forums/dcc.177/)
+
 [Our Discord Server](https://discord.gg/y2sB4Fp)
 
 You can get support for DCC++ EX at either of the above links including live support on Discord.
 
-## Project Lead
+### Project Lead
 
 * Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
 
@@ -19,15 +20,50 @@ You can get support for DCC++ EX at either of the above links including live sup
 
 ### Lead Developers
 
-* David Codding, 
-* Chris XXX
+* David Cutting - Park City, Utah, USA (David Cutting)
+* Chris UK
 * Harald Barth (Haba)
+
+### Developers
+
+* Fred Decker
 
 ## DCC++ Classic
 
 ### Lead Developers
 
-Mike Dunston (Atani)
-Fred Decker, North Carolina USA (FlightRisk)
+* Mike Dunston - Sonora, California, USA (Atani)
+* Fred Decker - Holly Springs, North Carolina USA (FlightRisk)
+
+## Installer Software
+
+### Lead Developers
+
+* Dexter - Ohio (Dex, Dex++)
+
+## Website
+
+### Lead Developers
+
+* Mani
+* David Cutting
+
+### Developers
+
+* Fred Decker - Holly Springs, North Carolina USA (FlightRisk)
+* grbba
+
+## Documentation / Management
+
+* Roger Beschizza - Dorsett UK
+* Keith Ledbetter - Chicago, Illinois USA
+* Kevin Smith - (KCSmith)
+
+## Testing / Research / Support
+
+* Sumner - Utah, USA (Sumner)
+* Larry Dribin - (H0Guy)
+* Paul - Virginia USA (Paul1361)
+* - Paris France (grbba)
 
 
