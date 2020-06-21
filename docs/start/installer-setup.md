@@ -2,6 +2,6 @@
 
 *Work in progress*
 
-[Jumper Diagrams](assets/Motor Shield Pin Mappings.pdf)
+[Jumper Diagrams](../assets/motor-shield-pin-mappings.pdf)
 
 

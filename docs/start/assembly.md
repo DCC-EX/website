@@ -2,6 +2,7 @@
 
 *Work in progress*
 
-[Jumper Diagrams](assets/Motor Shield Pin Mappings.pdf)
+[Jumper Diagrams](../assets/motor-shield-pin-mappings.pdf)
 
-Next Page: [Power Supplies](power-supplies.md)
+
+Next Page: [Power Supplies](../hardware/power-supplies.md)
