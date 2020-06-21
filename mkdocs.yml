@@ -39,7 +39,8 @@ nav:
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'
-  - About Us: 'about/about-us.md'
+  - About Us:
+    - ' ': 'about/about-us.md'
     
 markdown_extensions: 
   - admonition
