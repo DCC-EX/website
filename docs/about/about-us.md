@@ -12,6 +12,8 @@ What you see available for download here represents a complete rewrite of the co
 
 You can get support for DCC++ EX at either of the above links including live support on Discord.
 
+Names below in parenthesis are screen names on Trainboard and Discord
+
 ### Project Lead
 
 * Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
@@ -21,11 +23,11 @@ You can get support for DCC++ EX at either of the above links including live sup
 ### Lead Developers
 
 * David Cutting - Park City, Utah, USA (David Cutting)
-* Chris Harlow - Bournemouth UK
+* Chris Harlow - Bournemouth UK (UkBloke)
 
 ### Developers
 
-* Harald Barth (Haba)
+* Harald Barth Switzerland (Haba)
 * Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
 * Paris France (grbba)
 
@@ -57,8 +59,8 @@ You can get support for DCC++ EX at either of the above links including live sup
 
 ## Documentation / Management
 
-* Roger Beschizza - Dorsett UK
-* Keith Ledbetter - Chicago, Illinois USA
+* Roger Beschizza - Dorsett UK (Roger Beschizza)
+* Keith Ledbetter - Chicago, Illinois USA (Keith Ledbetter)
 * Kevin Smith - (KCSmith)
 
 ## Testing / Research / Support
