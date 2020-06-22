@@ -22,8 +22,9 @@ DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards
 * Main Track: Write configuration variable bytes and set/clear specific configuration variable (CV) bits
 * Programming Track: Same as the main track with the addition of reading configuration variable bytes
 
-## What's new since DCC++ Classic?
+## What's new in DCC++ EX?
 
+* Complete support for all the old commands and front ends like JMRI
 * Direct support for all the most popular motor control boards
 * I2C Display support
 * Improved short circuit detection and automatic reset from an overload
@@ -32,8 +33,12 @@ DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards
 * New Communication Manager to handle input and output to multiple sources simultaneously (JMRI, Cab controllers, etc.)
 * Arduino Network Shield and ESP8266 WiFi support
 * Railcom Cutout (Beta)
-* The code is now simpler, modular, faster and provides an API Library for developers and easy expansion
+* Simpler, modular, faster code with an API Library for developers for easy expansion
 * No more jumpers or soldering! (Beta)
+* New features and functionsn in JMRI (coming)
+* Automation (Alpha)
+
+NOTE: The Next release will be a major rewrite to the code. We started from scratch and are rebuilding from the ground up! For what that means to you, click [HERE](../notes/rewrite.md).
 
 ## The system consists of multiple parts:
 

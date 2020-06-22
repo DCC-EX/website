@@ -36,6 +36,7 @@ nav:
     - Tinker with DCC EX: 'tinker/tinkering.md'
   - Resources:
     - Resources: 'resources/resources.md'
+  - What's New Details: 'notes/rewrite.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'
