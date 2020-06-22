@@ -38,7 +38,7 @@ DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards
 * New features and functionsn in JMRI (coming)
 * Automation (Alpha)
 
-NOTE: The Next release will be a major rewrite to the code. We started from scratch and are rebuilding from the ground up! For what that means to you, click [HERE](../notes/rewrite.md).
+NOTE: The Next release will be a major rewrite to the code. We started from scratch and are rebuilding from the ground up! For what that means to you, click [HERE](notes/rewrite.md).
 
 ## The system consists of multiple parts:
 
