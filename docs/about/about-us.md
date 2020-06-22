@@ -21,12 +21,13 @@ You can get support for DCC++ EX at either of the above links including live sup
 ### Lead Developers
 
 * David Cutting - Park City, Utah, USA (David Cutting)
-* Chris UK
-* Harald Barth (Haba)
+* Chris Harlow - Bournemouth UK
 
 ### Developers
 
-* Fred Decker
+* Harald Barth (Haba)
+* Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
+* Paris France (grbba)
 
 ## DCC++ Classic
 
@@ -45,13 +46,14 @@ You can get support for DCC++ EX at either of the above links including live sup
 
 ### Lead Developers
 
-* Mani
-* David Cutting
+* Mani Kumar - Bangalor India (Mani / Mani Kumar)
+* Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
 
 ### Developers
 
+* David Cutting - Park City, Utah, USA (David Cutting)
 * Fred Decker - Holly Springs, North Carolina USA (FlightRisk)
-* grbba
+
 
 ## Documentation / Management
 
@@ -61,7 +63,7 @@ You can get support for DCC++ EX at either of the above links including live sup
 
 ## Testing / Research / Support
 
-* Sumner - Utah, USA (Sumner)
+* Sumner Patterson - Blanding, Utah, USA (Sumner)
 * Larry Dribin - (H0Guy)
 * Paul - Virginia USA (Paul1361)
 * Paris France (grbba)
