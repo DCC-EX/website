@@ -16,19 +16,19 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 
 ### Project Lead
 
-* Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
+* Fred Decker - Holly Springs, North Carolina, USA (FlightRisk)
 
 ## DCC++ EX
 
 ### Lead Developers
 
 * David Cutting - Park City, Utah, USA (David Cutting)
-* Chris Harlow - Bournemouth UK (UkBloke)
+* Chris Harlow - Bournemouth UK (UKBloke)
 
 ### Developers
 
 * Harald Barth Switzerland (Haba)
-* Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
+* Fred Decker - Holly Springs, North Carolina, USA (FlightRisk)
 * Paris France (grbba)
 
 ## DCC++ Classic
@@ -49,7 +49,7 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 ### Lead Developers
 
 * Mani Kumar - Bangalor India (Mani / Mani Kumar)
-* Fred Decker - Holly Springs, North Carolina, USA (FlighRisk)
+* Fred Decker - Holly Springs, North Carolina, USA (FlightRisk)
 
 ### Developers
 
@@ -59,7 +59,7 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 
 ## Documentation / Management
 
-* Roger Beschizza - Dorsett UK (Roger Beschizza)
+* Roger Beschizza - Dorset UK (Roger Beschizza)
 * Keith Ledbetter - Chicago, Illinois USA (Keith Ledbetter)
 * Kevin Smith - (KCSmith)
 
@@ -68,6 +68,6 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 * Sumner Patterson - Blanding, Utah, USA (Sumner)
 * Larry Dribin - (H0Guy)
 * Paul - Virginia USA (Paul1361)
-* Paris France (grbba)
+* Gregor - Paris France (grbba)
 
 
