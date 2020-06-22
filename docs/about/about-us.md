@@ -29,7 +29,7 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 
 * Harald Barth Switzerland (Haba)
 * Fred Decker - Holly Springs, North Carolina, USA (FlightRisk)
-* Paris France (grbba)
+* Gregor - Paris France (grbba)
 
 ## DCC++ Classic
 
@@ -42,7 +42,7 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 
 ### Lead Developers
 
-* Dexter - Ohio (Dex, Dex++)
+* Anthony W - Dayton, Ohio USA (Dex, Dex++)
 
 ## Website
 
