@@ -27,9 +27,9 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 
 ### Developers
 
-* Harald Barth Sweden (Haba)
+* Harald Barth Stockholm - Sweden (Haba)
 * Fred Decker - Holly Springs, North Carolina, USA (FlightRisk)
-* Gregor - Paris France (grbba)
+* Gregor Baues - Île-de-France France (grbba)
 
 ## DCC++ Classic
 
