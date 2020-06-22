@@ -12,7 +12,7 @@ What you see available for download here represents a complete rewrite of the co
 
 You can get support for DCC++ EX at either of the above links including live support on Discord.
 
-Names below in parenthesis are screen names on Trainboard and Discord
+_Names below in parenthesis are screen names on Trainboard and Discord_
 
 ### Project Lead
 
