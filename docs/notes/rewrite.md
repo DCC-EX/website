@@ -1,6 +1,6 @@
 # What's New for the DCC++ EX Project
 
-## Everything You Loved is Still There
+## Everything you loved is still there
 
 First, we want to stress that we didn't break anything! Whether you are using JMRI as a front end to send commands to your track, handle turnouts or read and write CVs, or any using any other software or the serial monitor, the commands are still the same. We have expanded the API (Application Programming Interface) to add new commands and provide new responses, but they won't affect your old control methods. One example of a new command is the one to handle turning power on and off to individual tracks.
 
@@ -38,7 +38,7 @@ We not only have created a rail-com cutout within the Command Station, but are l
 
 TPL brings new capability to the world of automation. You don't have to be a programmer to write a script that tells a train to start moving forward at a set speed until some action (like reaching a sensor) occurs. We will be providing a document and tutorial on TPL once Beta testing is complete. This will be an open-ended project since who knows what people will come up with they want to automate. It will be easy to extend the commands to handle whatever your imagination can dream of.
 
-## The Bottom Line
+## The bottom line
 
 So while maintaining proper deference to Gregg Bermann's original concept of an inexpensive Control Station based on the Arduino platform, we don't want to do a disservice to DCC++ EX or develpers like Chris Harlow (UkBloke) and David Codding (David Codding) who brought a new vision to the project and who used very little of the original code. This is NOT DCC++ v2.0, this is a completely new, yet API and feature compatible Control Station. And just a tease: What Constrol Station would be complete without a wireless Cab Controller that speaks DCC++? Keep looking at our web page for new announcments.
 
