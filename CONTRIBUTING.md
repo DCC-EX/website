@@ -1,6 +1,6 @@
 # How to Contribute to our website
 
-Thank you for your offer to help. Before doing anything, make sure you have checked with one on the admins for the DCC++ EX project on either TrainBoar or our Discord.
+Thank you for your offer to help. Before doing anything, make sure you have checked with one on the admins for the DCC++ EX project on either TrainBoard or our Discord.
 
 # Submission Procedure
 
