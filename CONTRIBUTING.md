@@ -18,5 +18,5 @@ We will assume that you have an appropriate text editor and Git installed on you
 10. Go to GitHub and issue a pull request for your <your-name>-changes branch to be pulled into the master branch
 11. At this point one of the admins can then approve and merge the PR.
 12. Anyone who gets privileges to administer the web page would make sure their "website" repo pulled in the latest version. If this was you, and you just issued and approved the PR, then your website repo is up to date. From the command prompt, change to the "dcc-ex.github.io" repository and run this command: 
-$ mkdocs gh-deploy --config-file ..\website\mkdocs.yml --remote-branch master
+$ mkdocs gh-deploy --config-file ..\website\mkdocs.yml --website master
 This last step takes the .md files in the website repo, converts them into html and puts them in the dcc-ex.github.io repo and then pushes them up to GitHub which updates the live website.
