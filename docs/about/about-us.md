@@ -68,6 +68,5 @@ _Names below in parenthesis are screen names on Trainboard and Discord_
 * Sumner Patterson - Blanding, Utah, USA (Sumner)
 * Larry Dribin - (H0Guy)
 * Paul - Virginia USA (Paul1361)
-* Gregor - Paris France (grbba)
-
+* Gregor Baues - Île-de-France France (grbba)
 
