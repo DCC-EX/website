@@ -13,7 +13,7 @@ repo_name: DCC-EX/website
 repo_url: https://github.com/DCC-EX/website
 
 nav:
-  - Home: 'index.md'   
+  - Home: 'index.md' 
   - Getting Started:
     - Starter Kit: 'start/starter-kit.md'
     - Assembly: 'start/assembly.md'
@@ -36,12 +36,12 @@ nav:
     - Tinker with DCC EX: 'tinker/tinkering.md'
   - Resources:
     - Resources: 'resources/resources.md'
-  - What's New Details: 'notes/rewrite.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'
-  - About Us:
-    - ' ': 'about/about-us.md'
+  - About:
+    - Team: 'about/about-us.md'
+    - What's New: 'notes/rewrite.md'
     
 markdown_extensions: 
   - admonition
