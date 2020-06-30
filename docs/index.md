@@ -6,11 +6,15 @@ of DCC-equipped model railroads.
 Welcome to the DCC++ EX website. DCC++ EX is an open-source hardware and software platform for the operation of DCC-equipped model railroads. It is based on Gregg E. Berman's DCC++ code. DCC-EX picks up where the original DCC++ left off. By addressing some previous issues, we have released what we now call "DCC++ Classic" - everything you enjoyed in the original version in a stable release. In addition, we have have continued development with an all new version called "DCC-EX" that includes enhancements and upgrades. We intend to organize this all in one place so that development can continue and the platform can adjust to new hardware and technnology.
 
 ## Our Mission
-Our mission is to supply the model railroading community with an Arduino based open source alternative to commercial DCC systems - one that is simple, affordable, expandable, and allows for a great out of box experience to control model trains and accessories. Further, it is our goal that this project be organized, documented, and maintained so that it can continue far into the future.
+Our mission is to open the world of model railroading and make it universally accesible.
+
+In order to achieve that, DCC++ EX is providing the model railroad community with a complete, open source DCC (Digital Command Control) system - one that is simple, affordable, and expandable, to control model trains and accessories. Further, it is our goal that this project be organized, documented, and maintained so that it can continue far into the future.
 
 ## What is DCC++ EX?
 
 In addition to controlling your trains, DCC++ also includes advanced features such as dedicated logic for operating turnouts, and the ability to create and control your own digital inputs, digital outputs, and even analog inputs --- great for reading panel switches, sensors, and occupancy detectors, as well as controlling servos, LEDS, and anything else you can imagine! Basically, DCC-EX can control anything using a DCC signal over two tracks, two wires, or via wired Ethernet or WiFi.
+
+A basic DCC++ EX system can use easy to find, widely avalable Arduino boards that you can plug in yourself. You may even have one sitting around in your project drawer! Or, you can use our FireBox Control Station for something that is just plug-and-play.
 
 DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards](http://www.nmra.org/dcc-working-group "NMRA DCC Working Group"), including:
 
@@ -22,8 +26,9 @@ DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards
 * Main Track: Write configuration variable bytes and set/clear specific configuration variable (CV) bits
 * Programming Track: Same as the main track with the addition of reading configuration variable bytes
 
-## What's new since DCC++ Classic?
+## What's new in DCC++ EX?
 
+* Complete support for all the old commands and front ends like JMRI
 * Direct support for all the most popular motor control boards
 * I2C Display support
 * Improved short circuit detection and automatic reset from an overload
@@ -32,8 +37,12 @@ DCC++ supports the full set of [NMRA Digital Command and Control (DCC) standards
 * New Communication Manager to handle input and output to multiple sources simultaneously (JMRI, Cab controllers, etc.)
 * Arduino Network Shield and ESP8266 WiFi support
 * Railcom Cutout (Beta)
-* The code is now simpler, modular, faster and provides an API Library for developers and easy expansion
+* Simpler, modular, faster code with an API Library for developers for easy expansion
 * No more jumpers or soldering! (Beta)
+* New features and functionsn in JMRI (coming)
+* Automation (Alpha)
+
+NOTE: The Next release will be a major rewrite to the code. We started from scratch and are rebuilding from the ground up! For what that means to you, click [HERE](notes/rewrite.md).
 
 ## The system consists of multiple parts:
 
