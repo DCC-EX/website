@@ -16,13 +16,14 @@ nav:
   - Home: 'index.md' 
   - Getting Started:
     - Starter Kit: 'start/starter-kit.md'
-    - Assembly: 'start/assembly.md'
-    - Basic Setup: 'start/basic-setup.md'
+    - Hardware & Assembly: 'start/assembly.md'
     - Installer Setup: 'start/installer-setup.md'
-    - Advanced Setup: 'start/advanced-setup.md'
+    - Basic Setup: 'start/basic-setup.md'
+  - Advanced Setup:
     - JMRI Setup: 'start/dccpp-jmri.md'
     - Rail Networking: 'start/rail-networking.md'
     - Automation: 'start/automation.md'
+    - WIFI setup: 'start/wifi-setup.md'
   - Hardware:
     - Microcontrollers: 'hardware/microcontrollers.md'
     - Motor Boards: 'hardware/motor-boards.md'
