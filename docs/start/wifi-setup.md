@@ -1,4 +1,4 @@
-# Advanced Setup
+# WiFi Setup
 
 *Work in progress*
 

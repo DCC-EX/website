@@ -13,16 +13,17 @@ repo_name: DCC-EX/website
 repo_url: https://github.com/DCC-EX/website
 
 nav:
-  - Home: 'index.md'   
+  - Home: 'index.md' 
   - Getting Started:
     - Starter Kit: 'start/starter-kit.md'
-    - Assembly: 'start/assembly.md'
-    - Basic Setup: 'start/basic-setup.md'
+    - Hardware & Assembly: 'start/assembly.md'
     - Installer Setup: 'start/installer-setup.md'
-    - Advanced Setup: 'start/advanced-setup.md'
+    - Basic Setup: 'start/basic-setup.md'
+  - Advanced Setup:
     - JMRI Setup: 'start/dccpp-jmri.md'
     - Rail Networking: 'start/rail-networking.md'
     - Automation: 'start/automation.md'
+    - WIFI setup: 'start/wifi-setup.md'
   - Hardware:
     - Microcontrollers: 'hardware/microcontrollers.md'
     - Motor Boards: 'hardware/motor-boards.md'
@@ -36,12 +37,12 @@ nav:
     - Tinker with DCC EX: 'tinker/tinkering.md'
   - Resources:
     - Resources: 'resources/resources.md'
-  - What's New Details: 'notes/rewrite.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'
-  - About Us:
-    - ' ': 'about/about-us.md'
+  - About:
+    - Team: 'about/about-us.md'
+    - What's New: 'notes/rewrite.md'
     
 markdown_extensions: 
   - admonition
