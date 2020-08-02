@@ -11,7 +11,7 @@ We will assume that you have an appropriate text editor and Git installed on you
 3. Using Git Bash, go to the "website" folder and make a branch: **"git checkout -b {your-name}-changes"** (you can use VSC and the GitLens add on to do all this too)
 4. From Git Bash or a Command Prompt, change to the _"website"_ repository and run **"mkdocs serve"** to start up the software that turns .md markdown files in to .html files. Leave it running. (You may want to open both a Git command prompt and a Windows Command prompt or Mac Terminal window, so that the mkdocs server can be running in one while you use the Git Bash window to do your commits)
 5. Open a Browser and go to **"localhost:8000"**. The DCC++ EX website should load.
-6. Open VSC and edit the files in the "website" folder. You will be only changing files in the _"docs"_ subfolder and the _mkdocs.yml_ file (if necessary). The browser should update the website in real time as you save changes.
+6. Open VSC and edit the files in the _"website"_ folder. You will be only changing files in the _"docs"_ subfolder and the _mkdocs.yml_ file (if necessary). The browser should update the website in real time as you save changes.
 7. Save in your editor and use **"Git Add"** and **"Git commit"** often to save changes. (VSC is one click to commit. It prompts to add unstaged files).
 8. Push it to GitHub: **"git push origin {your-name}-changes"**
 9. Double check that the website in your browser is working, then go back to the command prompt window, hit **"cntrl-c"** to stop the server.
