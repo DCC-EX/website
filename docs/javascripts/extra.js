@@ -10,6 +10,11 @@ function getLink() {
                     needed = "win-x64";
                 }
                 break;
+            case "Red Hat":
+            case "CentOS":
+            case "Ubuntu":
+            case "Debian":
+            case "Fedora":
             case "Linux":
                 if (platform.os.architecture == 64) {
                     needed = "linux-x64";
@@ -19,13 +24,14 @@ function getLink() {
                     needed = "linux-arm";
                 }
                 break;
-            case "OSX":
+            case "OS X":
                 if (platform.os.architecture == 64) {
                     needed = "osx-x64";
                 }
         }
         if (needed === "not supported") {
             alert("OS Version not supported at this time");
+            return;
         }
         for (let k in parsed[0].assets) {
             if (parsed[0].assets[k].name.includes(needed)) {
