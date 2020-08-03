@@ -16,7 +16,6 @@ If you would like to contribute to this repository, please use Visual Studio Cod
 
 ## Pushing changes to the website
 
-If you are a member of the DCC-EX organization, use the following steps to push changes from here to the live website. Clone the dcc-ex.github.io repository to the same folder as this repository on your computer. Once you've made your changes in this repo, navigate into the dcc-ex.github.io repository (NOT this one) and run the following command:
-```bash
-mkdocs gh-deploy --config-file ..\website\mkdocs.yml --remote-branch master
-```
+If you are a member of the DCC-EX organization, use the following steps to push changes from here to the live website. Clone the dcc-ex.github.io repository to the same folder as this repository on your computer. For more details on how to edit and push your changes, please read The CONTRIBUTING.MD file.
+
+https://github.com/DCC-EX/website/blob/master/CONTRIBUTING.md
