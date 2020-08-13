@@ -46,10 +46,10 @@ NOTE: The Next release will be a major rewrite to the code. We started from scra
 
 ## The system consists of multiple parts:
 
-* __Base Station__ - An Arduino, motorboard and the DCC-EX uploadable firmware
+* __Command Station__ - An Arduino, motorboard and the DCC-EX uploadable firmware
 * __Controller__ - The JMRI Train Controlling and Decoder Programming Software
 * __Track Power Supply__ - A DC power supply to provide power to the rails
 * __Computer__ - You supply a laptop or other computer to run JMRI and connect via a USB cable to the Arduino
-* __DCC++ EX Software__ - The DCC++ EX sofware (called a "sketch") loaded onto the Arduino
+* __DCC++ EX Software__ - The DCC++ EX sofware (called a "sketch") loaded onto the your command station
 
 There are many flavors and options to choose from. The DCC-EX system is incredibly expandable and adaptable. However, to keep it simple we will be covering a "Starter System" and providing you with a Quick Start guide to get you going. There is a more detailed User Manual for those who want to dig deeper and explore other options. The manual covers other motor control boards, other controllers, wireless communication options, current sensing options, using a Raspberry Pi instead of a laptop, and more. You aren't limited to just one or two choices and we've got you covered if you want to put together the perfect system for you.

@@ -15,7 +15,8 @@ repo_url: https://github.com/DCC-EX/website
 nav:
   - Home: 'index.md' 
   - Getting Started:
-    - Starter Kit: 'start/starter-kit.md'
+    - Choose your Path: 'start/levels.md'
+    - Starter Kit: 'start/diy-starter-kit.md'
     - Hardware & Assembly: 'start/assembly.md'
     - Installer Setup: 'start/installer-setup.md'
     - Basic Setup: 'start/basic-setup.md'
@@ -35,6 +36,8 @@ nav:
     - Base Station: 'develop/base-station-dev.md'
   - Tinker:
     - Tinker with DCC EX: 'tinker/tinkering.md'
+  - Support:
+    - How To Get Support: 'support/get-support.md'
   - Resources:
     - Resources: 'resources/resources.md'
   - Downloads:
