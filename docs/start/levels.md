@@ -12,7 +12,7 @@ We have broken down who are users are into three categories and created differen
 
 
 ![Engineer Hat](../images/engineer_hat2.jpg)
-Engineer - An Engineer is a little more versed in computers and/or electronics. They have a desire to dig a little deeper into how things work. They can understand the basics of computer code and can look at the DCC++ EX program to at least make simple changes. They may want to help with offering their talents to the project. They are not averse to experimenting with things to make something work. These are the people whose layout looks like a telephone switching station when you look under their benchwork. This path will offer more technical information and cover more in depth topics like accessory control and customizing the DCC++ EX System.
+**Engineer** - An Engineer is a little more versed in computers and/or electronics. They have a desire to dig a little deeper into how things work. They can understand the basics of computer code and can look at the DCC++ EX program to at least make simple changes. They may want to help with offering their talents to the project. They are not averse to experimenting with things to make something work. These are the people whose layout looks like a telephone switching station when you look under their benchwork. This path will offer more technical information and cover more in depth topics like accessory control and customizing the DCC++ EX System.
 
 Keep these definitions in mind as you proceed through this website. Here is your first choice:
 

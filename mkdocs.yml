@@ -16,7 +16,7 @@ nav:
   - Home: 'index.md' 
   - Getting Started:
     - Choose your Path: 'start/levels.md'
-    - Starter Kit: 'start/starter-kit.md'
+    - Starter Kit: 'start/diy-starter-kit.md'
     - Hardware & Assembly: 'start/assembly.md'
     - Installer Setup: 'start/installer-setup.md'
     - Basic Setup: 'start/basic-setup.md'
