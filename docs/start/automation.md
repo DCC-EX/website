@@ -1,6 +1,0 @@
-# Automation
-
-*Work in progress*
-
-
-
