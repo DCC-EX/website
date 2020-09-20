@@ -11,14 +11,14 @@ Welcome to the DCC++ EX download page. You have several choices depending on wha
 
 ## Latest DCC++ EX Release Download Zip
 
-[DCC++ EX Download Zip](https://github.com/DCC-EX/BaseStation-EX/archive/master.zip "DCC++EX Instant Zip Download"){: .downloadBtn}
+[DCC++ EX Download Zip](https://github.com/DCC-EX/CommandStation-EX/archive/master.zip "DCC++EX Instant Zip Download"){: .downloadBtn}
 
 !!! Info ""
     Clicking above will immediately download a zip file containing the Arduino Sketch file for DCC++ EX. You will need either the Arduino IDE (found here) or the PlatformIO development environment (found here) in order to upload it to your microcontroller board.
 
 ## DCC++ EX GitHub Repository
 
-[DCC++ EX GitHub Repository](https://github.com/DCC-EX/BaseStation-EX "DCC++ EX GitHub Repository"){: .downloadBtn}
+[DCC++ EX GitHub Repository](https://github.com/DCC-EX/CommandStation-EX "DCC++ EX GitHub Repository"){: .downloadBtn}
 
 !!! Info ""
     Clicking above will take you the the DCC++ EX GitHub repository where you can download the project as a Zip file or Clone it to your own respository. All of the source files and instructions for how to contribute to the project can be found in the repository. We have made sure that you can still use the Arduino IDE if you like, but we recommend devlopers use the PlaformIO development environment.
