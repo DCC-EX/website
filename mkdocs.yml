@@ -30,6 +30,8 @@ nav:
     - Motor Boards: 'hardware/motor-boards.md'
     - I2C Displays: 'hardware/i2c-displays.md'
     - Power Supplies: 'hardware/power-supplies.md'
+  - Throttles:
+    - exWebThrottle: 'throttles/ex-webthrottle.md'
   - API:
     - Command Station: 'api/command-station-api.md'
   - Develop:
