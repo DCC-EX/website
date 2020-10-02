@@ -14,15 +14,13 @@ To enable the Web Serial API, in your browser URL bar type:
     
 Then set the **#enable-experimental-web-platform-features** flag by looking on the page for "Experimental Web Platform Features" and click on the "enable" button. (NOTE: Substitute the name of your browser above if you don't use Chrome)
 
-## What you’ll need to use and develop this application
+## What you’ll need to use this application
 
-You don't need anything to test it out and to run in simulator mode, to run trains you will need:
+You don't need anything to test it out and to run in emulator mode, to run trains you will need:
 
 * An Arduino Mega or Uno Microcontroller
 * An Arduino Motor Control Shield
 * Chromium based browser version 80 or later
-* Some knowledge of HTML and JavaScript (developers only)
-* Understanding of how to use the Chrome DevTools (developers only)
 
 
 ## Getting started
@@ -36,7 +34,7 @@ To get started, connect your Command Station to a computer that has a USB port a
 
 ## Operation
 
-To use the program, you can either click on the "serial" dropodown button and select "simulator" to run in simulator mode or after making sure your hardware is properly connected, make sure "serial" is selected and click on the "Connect DCC++ EX" button. 
+To use the program, you can either click on the "serial" dropodown button and select "emulator" to run in emulator mode or after making sure your hardware is properly connected, make sure "serial" is selected and click on the "Connect DCC++ EX" button. 
 
 If the program finds a compatible device, it will popup a window showing you a selection. It may show a line at the top such as "Arduino Mega 2560 (COM3)". Your com port may vary. Click on your board to select it and then click the "connect" button.
 
@@ -56,9 +54,12 @@ The circular control or vertical slider (chosen by the throttle select slider) c
 
 The options button lets you save labels to go on your function buttons for each of your locos. We will be updating this document soon to give you more information on this and other new features.
 
+**Note:** The emulator doesn't fully replicate the Command station yet. This means that althought the software works, not all the responses will be shown in
+the debug console. We are currently working on this, so it is something that will be fixed.
+
 ## Try it now
  
-Just click this button and it will load a web page from our server that will run the web throttle on your machine. You can connect it to DCC++ EX or just run it in simulator mode where you don't have to have any hardware. Please read the instructions above for what is required to run exWebThrottle in your browser.
+Just click this button and it will load a web page from our server that will run the web throttle on your machine. You can connect it to DCC++ EX or just run it in emulator mode where you don't have to have any hardware. Please read the instructions above for what is required to run exWebThrottle in your browser.
 
 [Run exWebThrottle Now](../exwebthrottle/index.html "Run exWebThrottle Now"){: .downloadBtn}
 
