@@ -53,6 +53,14 @@
      ``dotnet BaseStationInstaller``
 
 
+In the left column dropdown selector boxes choose the following options:
 
+Select your Arduino Board
+Select your Motor Shield
+Select your com port
+Select your networking method if you have a Network shield or Wifi Shield installed
+Press "Install"
 
-
+Use the Arduino IDE Serial Monitor to test
+Use exWebThrottle to test
+Use Engine Driver (WiThrottle) to test if you installed WiFi

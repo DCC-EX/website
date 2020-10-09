@@ -5,13 +5,15 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
 * __Controller:__ A Raspberry Pi with SD Card already configured with everything you need including the JMRI software. 
 * __Base Station:__ An Arduino with DCC++ software already uploaded and a Motor Controller Shield prepped and installed
 
+NOTE: Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you purchase just the Arduino Mega and Motorshield combination and use exWebThrottle.
+
 *Suppliers list coming soon*
 
 # What You Will Need
 
-- A "main" track or "operations" - most people already have this, it's your layout
-- A "programming" track or "service" track - a short section of track that you will use to program locomotives and other pieces of equipment
-- A known-good locomotive equipped with a DCC decoder
+- A "main" track aka "operations" track - most people already have this, it's your layout
+- A "programming" track aka "service" track - a short section of track that you will use to program locomotives and other pieces equipment that use "accessory decoders"
+- A known-good locomotive equipped with a DCC decoder. You may want this to have sound capability
 
 ![DCC++ Overview](../images/dccpp_starter.png)
 
@@ -20,8 +22,8 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
 #### Hardware
 
 * A compatible Arduino Board
-    * Arduino UNO R3 (clones work too)
     * Arduino Mega (clones work too)
+    * Arduino UNO R3 (clones work too)
     * Arduino Nano
 * A compatible motor driver shield
     * Arduino Motor Driver Shield Rev 3 (clones work too)
@@ -48,7 +50,7 @@ You can check Amazon, Ebay, AliExpress, Banggood, Adafruit and others for all th
 
 #### Software
 
-* [DCC++ EX Installer](https://github.com/DCC-EX/BaseStation-Installer/releases/tag/v2.0)
+* [DCC++ EX Installer](https://github.com/DCC-EX/BaseStation-Installer/releases/tag/v2.1)
 * [Steve Todd's Raspberry Pi Image](https://mstevetodd.com/rpi)
 * [JMRI (If you want to use your own computer)](https://www.jmri.org/)
 * [Arduino Software IDE to edit and upload changes (Optional)](https://www.arduino.cc/)
