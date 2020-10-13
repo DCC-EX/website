@@ -109,4 +109,3 @@ specific language governing permissions and limitations under the License.
 [DCC-EX](https://dcc-ex.com)
 
 <script src="../../javascripts/platform.js"></script>
-
