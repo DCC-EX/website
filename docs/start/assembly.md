@@ -45,23 +45,37 @@ Place both boards on the table with the power connector end facing in the same d
 ![Align Mega and Motor Shield](../images/mega_and_motor_shield.png){: align=center }
 <br>Figure 3 - Properly orient the boards
 
-a. Did you remember to cut the trace on the motor shield? If not, see above. Otherwise, sight down both rows of pins on the motor board and make sure they are all straight. They should all light up in a row and not be bent in any plane just like the teeth on a comb.
+a. Did you remember to cut the trace on the motor shield? If not, see above. Otherwise, sight down both rows of pins on the motor board and make sure they are all straight. They should all light up in a row and not be bent in any plane just like the teeth on a comb. If any look like the photo below, bend them with your fingers and/or needle nose pliers.
 
-<pic coming soon>
+![bent pins](../images/bent_pins.png){: align=center }
+<br>figure 4 - Bent pins
 
-b. Line up the pins on the side of the board closes to the USB with the header connector on the Mega first. You want to line up pins 0-12,gnd, aref, and the last two pins on the Mega with the same pins on the motor board.
+b. Line up the pins on the side of the board closest to the USB with the header connector on the Mega first. You want to line up pins 0-7 on the Mega with the same pins on the motor board. See the picture below and notice the small gap between the two sets of pins to match the two pin header sockets.
 
-<pic coming soon>
+![Line up the pins](../images/seat1.jpg){: align=center }
+<br>figure 5 - Line up left side first
 
 c. Just align them and start to push them in but don't push them all the way in. Use your fingers to try to push the pins to get them to all to into the holes.
 
-d. Do the same on the other side. Get all the pins aligned and start to press gently to get them into the holes.
+![Push the pins partway in](../images/seat2.jpg){: align=center }
+<br>figure 6 - Get all the pins started
 
-<pic coming soon>
+d. Do the same on the other side. Get all the pins aligned and start to press gently to get them into the holes. Notice on this side, you have more holes than you do pins. This is normal.
 
-e. Now, being careful to not bend any pins gently press, using a rocking motion if you need to, in order to get the motor board to seat firmly onto the Mega. NOTE: The pins will stop leaving a small space between the bottom of the motorboard and the top of the black plastic headers on the Mega. This is normal, you should see a little bit of the pins in between the two boards. Don't force anything.
+![Line up the other side](../images/seat_reverse1.jpg){: align=center }
+<br>figure 7 - Start the other side
 
-<pic coming soon>
+e. Now, being careful to not bend any pins gently press, using a rocking motion if you need to, in order to get the motor board to seat firmly onto the Mega. Press gently until you feel you can't put the pins in any further. Don't force anything.
+
+![Press together](../images/seat_press.jpg){: align=center }
+<br>figure 6 - Gently press the boards together
+
+f. The boards should be seated. Note the pins are longer than the headers. It is normal for you to see a few millimeters of the pins between the bottom of the motor board and the top of the headers. Figure 7 shows the boards as they look properly seated.
+
+![Fully seated](../images/seated.jpg){: align=center }
+<br>figure 7 - The boards when fully sesated
+
+Check your work. Look under and through where the boards connect, make sure no pins missed the holes and got bent so that they run along the outside of the headers.
 
 ## 3. Connect your power supply to the motor shield (But don't plug it in yet!) 
 
@@ -69,26 +83,28 @@ __WARNING__: Make sure you have cut the trace on the motor control board. If not
 
 Make sure you have a power supply with the correct voltage and current rating. <see selecting your power supply>
 
-If you are using a metal box type power supply, simply connect the DC output of the power supply to the DC input of the motor shield. Make sure that the positive screw terminal (+) is connected to the positive terminal (Vin) of the motor shield and the negative terminal (- or gnd) is connected to the negative terminal of the motor shield
+If you are using a "bench" or metal box type power supply, simply connect the DC output of the power supply to the DC input of the motor shield. Make sure that the positive screw terminal (+) is connected to the positive terminal (Vin) of the motor shield and the negative terminal (- or gnd) is connected to the negative (gnd) terminal of the motor shield
 
-<pic coming soon>
+![Power in to Motor Shield](../images/motor_power2b.jpg){: align=center }
+<br>figure 8 - Power in to Motor Shield
 
-If you are using a laptop style "brick" power supply, use the barrel connector to screw terminal adapter to connect your power supply to the Vin and ground pins on the motor shield. Be careful to use the correct polarity. Make sure the positive terminal on the screw terminal adapter connects to the positive (+) on the motor shiel and the negative terminal (- or gnd) connects to the negative terminal.
+If you are using a laptop style "brick" power supply or an adapter that plugs into the wall (aks wall wart), use the barrel connector to screw terminal adapter to connect your power supply to the Vin and ground pins on the motor shield. Be careful to use the correct polarity. Make sure the positive terminal on the screw terminal adapter connects to the positive (+) on the motor shiel and the negative terminal (- or gnd) connects to the negative terminal.
 
-<pic coming soon>
+![Screw Terminal Adapter Power In](../images/motor_power3.jpg){: align=center }
+<br>figure 9 - Screw Terminal Adapter to Motor Shield
 
 If you don't have a screw terminal adapter, you can cut the end off your power supply and strip the wires. The outer wire braid is the negative connection and the center wire is the positive connection.
 
 ## 4. Connect the power wires to the tracks
 
-There are two sets of output connectors on the motor shield, "A" and "B". A is the main or operations (also called "Ops") track while B is the programming or service track. <see here for an explaination of the two types of tracks> Connect twisted pair wire of the proper guage <see selecting your wire guage> to each track. Polarity it non important here, but if you will be using a siding track instead of a separate, unused piece of track, make sure that the positive and negative for both tracks match. In other words, if you view one side of your main track as having a "left" side and a right side, and connect positive of output A to the left side, connect the positive from the B side to the left side of the programming track. In electrical terms, we want both tracks to be "in phase" with each other.
+There are two sets of output connectors on the motor shield, "A" and "B". A is the main or operations (also called "Ops") track while B is the programming or service track. <see here for an explanation of the two types of tracks> Connect twisted pair wire of the proper gauge <see selecting your wire guage> to each track. Polarity it non important here, but if you will be using a siding track instead of a separate, unused piece of track, make sure that the positive and negative for both tracks match. In other words, if you view one side of your main track as having a "left" side and a right side, and connect positive of output A to the left side, connect the positive from the B side to the left side of the programming track. In electrical terms, we want both tracks to be "in phase" with each other. Here is the diagram from above repeated again for reference.
 
-<pic coming soon>
+![Main and Prog Out to track](../images/motor_power2b.jpg){: align=center }
+<br>figure 10 - Out to Main and Program tracks
 
 ## 5. Connect the power supply to the arduino (but )don't plug it in yet!)
 
 Connect the 2.5mm barrel connect from your separate 7-9V DC powersupply to the barrel connector on the Arduino
-12. Use the Arduino IDE Serial Monitor here?
 
 <pic coming soon>
 
@@ -107,9 +123,9 @@ If you are a "Tinkerer" or "Engineer", you may prefer using the Arduino IDE. Man
 
 ## TECHNICAL NOTES
 
-__Wire Guage__ - The Arduino Motor controller can only provide about 1.5 Amps of power (despite being rated for 2), so 18 AWG wire is ample. If you use a different motor controller and deliver more current to your track, you may need thicker wire.
+__Wire Gauge__ - The Arduino Motor controller can only provide about 1.5 Amps of power (despite being rated for 2), so 18 AWG wire is ample. If you use a different motor controller and deliver more current to your track, you may need thicker wire.
 
-__Power Supplies__ - Why do we recommend a 7-9V power supply for the Mega when the manaual says it can handle 12V? Can't you just use one 12V power supply to power both of them? Short answer; NO. You want two supplies (or one supply that splits out 2 voltages). The Arduino Mega only needs around 7V to operate. Any voltage over that is wasted as heat and can burn out the regulator on the board. And most people want a minimum of 12V into the Motor Board, many want up to 14 (for N and HO Scale). Where your Mega could run hot for a while with 12V, if 14V from the Motorboard was connected to the Mega, it would destroy it. Cut the trace and use 2 power supplies.
+__Power Supplies__ - Why do we recommend a 7-9V power supply for the Mega when the manual says it can handle 12V or even 20? Can't you just use one 12V power supply to power both of them? Short answer; NO. You want two supplies (or one supply that splits out 2 voltages). The Arduino Mega only needs around 7V to operate. Any voltage over that is wasted as heat and can burn out the regulator on the board. And most people want a minimum of 12V into the Motor Board, while many want 14 (for N and HO Scale). Where your Mega could run hot for a while with 12V, if 14V from the Motorboard was connected to the Mega, it would destroy it. Cut the trace and use 2 power supplies.
 
 Install using the Automated Installer
 
