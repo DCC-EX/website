@@ -104,17 +104,23 @@ There are two sets of output connectors on the motor shield, "A" and "B". A is t
 
 ## 5. Connect the power supply to the arduino (but )don't plug it in yet!)
 
-Connect the 2.5mm barrel connect from your separate 7-9V DC powersupply to the barrel connector on the Arduino
+Connect the 2.5mm barrel connect from your separate 7-9V DC powersupply to the barrel connector on the Arduino. If you have a power supply with bare wires, you can bypass the barrel connector and connect your power supply to the "Vin" and "Gnd" pins on the Arduino.
 
 <pic coming soon>
 
-## 6. Download and install the DCC++ EX Software for your Command Station
+## 6. Install the optional WiFi board
+
+You can connect a controller like JMRI or our exWebThrottle by using the serial cable to connect between your computer and the CS. If you are adding this board, click below, otherwise skip to setp 7.
+
+<Add link to Wifi Board Install>
+
+## 7. Download and install the DCC++ EX Software for your Command Station
 
 Keep your USB cable handy because we are going to need it in the next step. Click on one of the links below to see how to install the software. 
 
 If you are a "Conductor" (Click to see [user levels / path choice](levels.md)), we recommend using our installer. It is the simplest and quickest way to get started since it walks you through a simple process by letting you select any options from simple dropdowns and then installs everything you need. 
 
-If you are a "Tinkerer" or "Engineer", you may prefer using the Arduino IDE. Many of you may have already used the Arduino IDE and be familiar with it. The Arduino IDE is a very simple "Integrated Development Environment" that lets you open the DCC-EX project files, edit your config file or even your main program file, upload it to the Arduino, and then monitor or interact with the Command Station for testing.
+If you are a "Tinkerer" or "Engineer", you may prefer using the Arduino IDE. Many of you may have already used the Arduino IDE and are familiar with it. The Arduino IDE is a very simple "Integrated Development Environment" that lets you open the DCC-EX project files, edit your config file or even your main program file, upload it to the Arduino, and then monitor or interact with the Command Station for testing.
 
 <Use the automated installer>
 
@@ -127,12 +133,13 @@ __Wire Gauge__ - The Arduino Motor controller can only provide about 1.5 Amps of
 
 __Power Supplies__ - Why do we recommend a 7-9V power supply for the Mega when the manual says it can handle 12V or even 20? Can't you just use one 12V power supply to power both of them? Short answer; NO. You want two supplies (or one supply that splits out 2 voltages). The Arduino Mega only needs around 7V to operate. Any voltage over that is wasted as heat and can burn out the regulator on the board. And most people want a minimum of 12V into the Motor Board, while many want 14 (for N and HO Scale). Where your Mega could run hot for a while with 12V, if 14V from the Motorboard was connected to the Mega, it would destroy it. Cut the trace and use 2 power supplies.
 
+__Using a 5V Supply__ - There is one more option for powering the Mega. If you have a 5V DC regulated power supply, you can bypass the barrel connector and the regulator and connect it direcly to the 5V and Gnd pins on the Arduino. Do NOT connect anything to the barrel connector if you do this! You would still need to cut the Vin trace on the Motor Shield and use your separate power supply into the shield.
+
 Install using the Automated Installer
 
 Install manually using the Arduino IDE
 
 [Power Supplies](../hardware/power-supplies.md)
 
-<adding wifi next also?>
 
 Next Page: [Basic Install/Setup](basic-setup.md)
