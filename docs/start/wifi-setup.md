@@ -169,4 +169,4 @@ __Next Page__
 
 * If you are installing using the Arduino IDE
 
-[Install using the Arduino IDE](basic-setup.md)
+[Install using the Arduino IDE](arduino-ide-setup.md)

@@ -27,7 +27,7 @@ You don't need anything to test it out and to run in emulator mode, to run train
 
 ## Getting started
 
-!!! NOTE: 
+!!! NOTE 
     If you don't have your hardware yet or just want to play with the throttle
     and see commands being sent to the log window, you can skip to the operation
     section.
@@ -55,7 +55,7 @@ Once you are connected, you can enter the ``<s>`` command in the "direct command
 
 Now you are ready to run trains! Place your loco on the track and click the power slider button to turn on power to your track. You should see lights on your Arduino Motor Shield and an indication that your loco has power.
 
-!!! NOTE:
+!!! NOTE
     Make sure you place the loco on the MAIN track, not the PROGRAM track. Check your wiring. On an Arduino Motor Shield, Motor Output "A" should connect to your MAIN track and "B" to the PROGRAM track.
 
 Next go to the "Locomotive ID" textbox and enter the address of your loco and press the "Acquire" button. You should now have full control over your loco.
@@ -74,7 +74,8 @@ The circular control or vertical slider (chosen by the throttle select slider) c
 
 The options button lets you save labels to go on your function buttons for each of your locos. We will be updating this document soon to give you more information on this and other new features.
 
-**Note:** Not all CS functions are fully supported in the emulator yet. This means that although the software works, not all the responses will be shown in the debug console. This will be completed in a next release.
+!!! NOTE
+    Not all CS functions are fully supported in the emulator yet. This means that although the software works, not all the responses will be shown in the debug console. This will be completed in a next release.
 
 ## Try it now
  

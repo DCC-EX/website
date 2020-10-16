@@ -4,5 +4,7 @@ DCC++ EX is designed to accommodate a display. You don't need a display since th
 
 ![Example: 4 line I2C Display](../images/I2C_LCD_Display_wired.jpg)
 
+*** Under Construction, more coming soon ***
+
 
 

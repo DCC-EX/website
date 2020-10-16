@@ -20,7 +20,7 @@ nav:
     - Hardware & Assembly: 'start/assembly.md'
     - Adding WiFi: 'start/wifi-setup.md'
     - Installer Setup: 'start/installer-setup.md'
-    - Basic Setup: 'start/basic-setup.md'
+    - Arduino IDE Setup: 'start/arduino-ide-setup.md'
   - Advanced Setup:
     - JMRI Setup: 'start/dccpp-jmri.md'
     - Rail Networking: 'start/rail-networking.md'
