@@ -18,13 +18,14 @@ nav:
     - Choose your Path: 'start/levels.md'
     - Starter Kit: 'start/diy-starter-kit.md'
     - Hardware & Assembly: 'start/assembly.md'
+    - Adding WiFi: 'start/wifi-setup.md'
     - Installer Setup: 'start/installer-setup.md'
     - Basic Setup: 'start/basic-setup.md'
   - Advanced Setup:
     - JMRI Setup: 'start/dccpp-jmri.md'
     - Rail Networking: 'start/rail-networking.md'
     - Automation: 'start/automation.md'
-    - WIFI setup: 'start/wifi-setup.md'
+    - WIFI Configuration: 'start/wifi-config.md'
   - Hardware:
     - Microcontrollers: 'hardware/microcontrollers.md'
     - Motor Boards: 'hardware/motor-boards.md'

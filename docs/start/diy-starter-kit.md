@@ -3,7 +3,7 @@
 This guide is designed for do-it-yourselfers to build their own system. Anyone can do it, however if you don't feel technically inclined or just want to save the time, you can purchase a starter kit that contains:
 
 * __Controller:__ A Raspberry Pi with SD Card already configured with everything you need including the JMRI software. 
-* __Base Station:__ An Arduino with DCC++ software already uploaded and a Motor Controller Shield prepped and installed
+* __Command Station:__ An Arduino with DCC++ software already uploaded and a Motor Controller Shield prepped and installed. This is often abbreviated to just "CS"
 
 NOTE: Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you purchase just the Arduino Mega and Motorshield combination and use exWebThrottle.
 
