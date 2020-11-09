@@ -42,7 +42,7 @@ TPL brings new capability to the world of automation. You don't have to be a pro
 
 ## The bottom line
 
-So while maintaining proper deference to Gregg Bermann's original concept of an inexpensive Control Station based on the Arduino platform, we don't want to do a disservice to DCC++ EX or develpers like Chris Harlow (UkBloke) and David Cutting (David Cutting) who brought a new vision to the project and who used very little of the original code. This is NOT DCC++ v2.0, this is a completely new, yet API and feature compatible Command Station. And just a tease: What Command Station would be complete without a wireless Cab Controller that speaks DCC++? Keep looking at our web page for new announcments.
+So while maintaining proper deference to Gregg Bermann's original concept of an inexpensive Command Station based on the Arduino platform, we don't want to do a disservice to DCC++ EX or develpers like Chris Harlow (UkBloke) and David Cutting (David Cutting) who brought a new vision to the project and who used very little of the original code. This is NOT DCC++ v2.0, this is a completely new, yet API and feature compatible Command Station. And just a tease: What Command Station would be complete without a wireless Cab Controller that speaks DCC++? Keep looking at our web page for new announcments.
 
 ## Thanks
 

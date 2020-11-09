@@ -6,7 +6,7 @@ Let's start with the basics and add as you see fit. For this install, you need t
 * An Arduino Motor Shield or compatible
 * A USB-A Male to USB-B Male cable, aka USB Printer cable (or Micro USB for some Arduino Mega clones)
 * 18 to 16 AWG twisted pair hookup wire to connect the CS (Motor Controller outputs) to your tracks
-* A 7-9V DC Power supply with a 2.5mm barrel connector for the Mega
+* A 7-9V DC Power supply with a 2.5mm barrel connector for the Mega (see [Power Supplies](../hardware/power-supplies.md)) for other options. You may be able to eliminate this second power supply)
 * A 12V-15V power supply for the Motor Shield (See fig <link> for proper voltage)
 * A 2.5mm x 5.5mm Female DC Plug to Screw Terminal (if you don't want to strip wires on your power supply)
 
@@ -15,7 +15,7 @@ Refer to the [Starter Kit](diy-starter-kit.md) for more infomation about this li
 ![Command Station Setup](../images/basic_setup.jpg){: align=center }
 figure 1 - basic setup
 
-\* For an Uno, Nano or other microcontroller, or if you wish to use a different motor controller (for example to have more current to operate more trains and accessories), see *** link coming soon ***
+\* For an Uno, Nano or other microcontroller, please see [Using a different microcontroller](../hardware/microcontrollers.md). If you wish to use a different motor controller (for example to have more current to operate more trains and accessories), see [Motor Controllers](../hardware/motor-boards.md)
 
 For a video on how to do this, click here *** link coming soon ***
 
@@ -54,7 +54,7 @@ a. Did you remember to cut the trace on the motor shield? If not, see above. Oth
 ![bent pins](../images/bent_pins.png){: align=center }
 <br>figure 4 - Bent pins
 
-b. Line up the pins on the side of the board closest to the USB with the header connector on the Mega first. You want to line up pins 0-7 on the Mega with the same pins on the motor board. See the picture below and notice the small gap between the two sets of pins to match the two pin header sockets.
+b. Line up the pins on the side of the board closest to the USB with the header connector on the Mega first. You want to line up pins 0-7 on the Mega with the same pins on the motor board. On the other side, IOREF, RESET, 3V3, etc. and A0-A5 need to line up on both boards. See the picture below and notice the small gap between the two sets of pins to match the two pin header sockets.
 
 ![Line up the pins](../images/seat1.jpg){: align=center }
 <br>figure 5 - Line up left side first
@@ -85,7 +85,7 @@ Check your work. Look under and through where the boards connect, make sure no p
 
 __WARNING__: Make sure you have cut the trace on the motor control board. If not, see above first. Once you know the trace is cut, connect power to the motor board
 
-Make sure you have a power supply with the correct voltage and current rating. <see selecting your power supply>
+Make sure you have a power supply with the correct voltage and current rating. For help on selecting your power supply, pleas see [Power Supplies](../hardware/power-supplies.md))
 
 If you are using a "bench" or metal box type power supply, simply connect the DC output of the power supply to the DC input of the motor shield. Make sure that the positive screw terminal (+) is connected to the positive terminal (Vin) of the motor shield and the negative terminal (- or gnd) is connected to the negative (gnd) terminal of the motor shield
 
@@ -110,11 +110,14 @@ There are two sets of output connectors on the motor shield, "A" and "B". A is t
 
 Connect the 2.5mm barrel connector from your separate 7-9V DC powersupply to the barrel connector on the Arduino. If you have a power supply with bare wires, you can bypass the barrel connector and connect your power supply to the "Vin" and "Gnd" pins on the Arduino.
 
+!!! Note 
+   There are different ways to power your Arduino. You may be able to avoid having a second power supply if you will always have a computer connected to your CS (for example to run exWebThrottle or JMRI. There is also a way to use a 5V power supply. Please read [Power Supplies](../hardware/power-supplies.md)) to help you find what will work best for you).
+
 <pic coming soon>
 
 ## 6. Install the optional WiFi board
 
-You can connect a controller like JMRI or our exWebThrottle by using the serial cable to connect between your computer and the CS. BBut if you are installing a ESP8266 Shield or bare ESP8266 to connect wirelessly, click below, otherwise skip to setp 7.
+You can connect a controller like JMRI or our exWebThrottle by using the serial cable to connect between your computer and the CS. If so, skip to step 7. If you are installing a ESP8266 Shield or bare ESP8266 to connect wirelessly, Click the link below.
 
 [Wifi Setup](wifi-setup.md)
 

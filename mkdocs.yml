@@ -36,7 +36,7 @@ nav:
   - API:
     - Command Station: 'api/command-station-api.md'
   - Develop:
-    - Base Station: 'develop/base-station-dev.md'
+    - Command Station: 'develop/command-station-dev.md'
   - Tinker:
     - Tinker with DCC EX: 'tinker/tinkering.md'
   - Support:

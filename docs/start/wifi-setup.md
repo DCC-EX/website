@@ -14,12 +14,12 @@ Previously, to connect a wireless throttle like Engine Driver to the CS, you nee
 
 Most boards based on the ESP-8266 should work with DCC++ EX. However, with all the variations and software versions out there, we've compiled this list of known tested, working hardware. We will add more over time.
 
-* Makerfabs ESP-8266 WiFi Shield
-* Duinopeak ESP-8266 WiFi Expansion Board (plus an ESP-01 or 01s)
-* ESP-01 or ESP-01s Board (This is not a shield. You will need to jumper 5 wires)
+* [Makerfabs ESP-8266 WiFi Shield](https://www.makerfabs.com/esp8266-wifi-shield.html)
+* [Duinopeak ESP-8266 WiFi Expansion Board (plus an ESP-01 or 01s)](https://usa.banggood.com/Duinopeak-ESP8266-ESP-01-WiFi-Expansion-Board-Shield-Without-ESP8266-Module-p-1391961.html?cur_warehouse=CN)
+* [ESP-01 or ESP-01s Board (This is not a shield. You will need to jumper 5 wires)](https://www.amazon.com/DIYmall-ESP8266-ESP-01S-Serial-Transceiver/dp/B00O34AGSU/ref=pd_lpo_147_t_1/130-6340217-7680634?_encoding=UTF8&pd_rd_i=B00O34AGSU&pd_rd_r=da1c0b41-50d5-4d74-9eb7-47ff01e28033&pd_rd_w=R8UcG&pd_rd_wg=VsHQz&pf_rd_p=7b36d496-f366-4631-94d3-61b87b52511b&pf_rd_r=KNZV9WH99PH2PKF541N3&psc=1&refRID=KNZV9WH99PH2PKF541N3)
 
 !!! Note
-    All the boards mentioned here operate on the 2.4GHz band. And a fun fact is that the DCC signal averages around 8kHz. That means it cycles from positive to negative 8,000 times a second. 2.4GHz is in the microwave band (which is why a leaky microwave oven can wreak havoc on your network) which switches back and forth 2.4 BILLION times per second!
+    All the boards mentioned here operate on the 2.4GHz band. And a fun fact is that the DCC signal averages around 8kHz (It varies between 5kHz and 8.6kHz). That means it cycles between states 8,000 times a second. 2.4GHz is in the microwave band (which is why a leaky microwave oven can wreak havoc on your network) which switches back and forth 2.4 BILLION times per second!
 
 ## What you will need
 
