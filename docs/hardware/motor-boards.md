@@ -13,6 +13,7 @@ There are many motor boards available to use with DCC++ EX. Also called "Dual-H 
 
 * Arduino Motor Shield R3
 * Deek-Robot Motor Shield
+* DIY More L298HN Motor Shield
 * LMD18200 Motor Driver Module
 * Pololu MC33926 Motor Shield
 * LMD18200 Based Motor Boards
@@ -30,7 +31,7 @@ This is a checklist for what your motor controller needs to work with DCC++ EX:
 * Be able to allow our fast switching speeds (some do not)
 * Plug on shield to eliminate wiring (optional feature)
 
-## Work with little or now modification (Conductor friendly)
+## Work with little or no modification (Conductor friendly)
 
 * Arduino Motor Shield R3
 * Deek-Robot Motor Shield
@@ -40,12 +41,16 @@ This is a checklist for what your motor controller needs to work with DCC++ EX:
 The following are not shields, they are discrete boards. You will need to connect them with wires.
 
 * LMD18200
-* BTS70960
+* BTS70960 - The "IBT_2" board. This board also has separate direction pins, so after selecting the correct motor board type in the config.h, it will use one more of the Arduino's pins.
+* L6201P/6203
 
 ## Need more modification (Engineer path)
 
 * "Beeper Board" - You have to lift two traces and solder 2 resistors and use 2 jumpers.
+* Velleman KA03 (kit) VMA03 (soldered) - Must cut traces and solder resistors to get current sensing. Pin assignments must be added to a new motorboard entry in the config.h file.
+* Pololu MC33926 - While we have a motor board type for this board, the current sense is not acceptable. We recommend using an external current sense board like the MAX471
 
-## Connecting your motor shield
+## Boards that are NOT compatible for use with DCC
 
- **** coming soon ****
+* VNH2SP30 - Sparkfun Monster Moto and other boards from China based on this chip. It can't switch fast enough to generate a reliable DCC signal
+* IFX9202ED - Infineon Dual H-Bridge. Can't switch fast enough.

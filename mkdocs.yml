@@ -42,8 +42,11 @@ nav:
   - Support:
     - How To Get Support: 'support/get-support.md'
     - Create Support Ticket: 'support/create-ticket-form.md'
-  - Resources:
-    - Resources: 'resources/resources.md'
+  - Reference:
+    - Command Reference: 'reference/command-reference.md'
+    - Diagnostics D Command: 'reference/diagnostic-d-command.md'
+    - Diagnostics D ACK Command: 'reference/diagnostic-d-ack-command.md'
+    - Resources: 'reference/resources.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'
