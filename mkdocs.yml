@@ -26,26 +26,22 @@ nav:
     - Rail Networking: 'start/rail-networking.md'
     - Automation: 'start/automation.md'
     - WIFI Configuration: 'start/wifi-config.md'
-  - Hardware:
-    - Microcontrollers: 'hardware/microcontrollers.md'
-    - Motor Boards: 'hardware/motor-boards.md'
-    - I2C Displays: 'hardware/i2c-displays.md'
-    - Power Supplies: 'hardware/power-supplies.md'
   - Throttles:
     - exWebThrottle: 'throttles/ex-webthrottle.md'
-  - API:
-    - Command Station: 'api/command-station-api.md'
-  - Develop:
-    - Command Station: 'develop/command-station-dev.md'
-  - Tinker:
-    - Tinker with DCC EX: 'tinker/tinkering.md'
+    - WiThrottle/Engine Driver: 'throttles/withrottle.md'
   - Support:
     - How To Get Support: 'support/get-support.md'
     - Create Support Ticket: 'support/create-ticket-form.md'
   - Reference:
     - Command Reference: 'reference/command-reference.md'
+    - DCC-EX Command Station API: 'api/command-station-api.md'
     - Diagnostics D Command: 'reference/diagnostic-d-command.md'
     - Diagnostics D ACK Command: 'reference/diagnostic-d-ack-command.md'
+    - Hardware: 
+      - Microcontrollers: 'hardware/microcontrollers.md'
+      - Motor Boards: 'hardware/motor-boards.md'
+      - I2C Displays: 'hardware/i2c-displays.md'
+      - Power Supplies: 'hardware/power-supplies.md'
     - Resources: 'reference/resources.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'

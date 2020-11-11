@@ -6,15 +6,13 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
 * __Command Station:__ An Arduino with DCC++ software already uploaded and a Motor Controller Shield prepped and installed. This is often abbreviated to just "CS"
 
 !!! NOTE 
-    Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you can purchase just the Arduino Mega and Motorshield combination and use exWebThrottle.
-
-*Suppliers list coming soon*
+    Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you can purchase just the Arduino Mega and Motorshield combination and use our exWebThrottle.
 
 # What You Will Need
 
 - A "main" track aka "operations" track - most people already have this, it's your layout
 - A "programming" track aka "service" track - a short section of track that you will use to program locomotives and other pieces of equipment that use "accessory decoders". This can be an electrically isolated siding if you like and DCC++ EX will allow that to be part of your main track when not programming locos
-- A known-good locomotive equipped with a DCC decoder. You may want this to have sound capability
+- A locomotive equipped with a DCC decoder (either a standard or sound decoder)
 
 ![DCC++ Overview](../images/dccpp_starter.png)
 
@@ -64,11 +62,11 @@ You can check Amazon, Ebay, AliExpress, Banggood, Adafruit, Sparkfun and others 
 * [exWebThrottle Controller](https://dcc-ex.com/throttles/ex-webthrottle/://)
 
 !!! Note
-     As mentioned above you can also use your existing computer (PC, Mac, Linux) instead of a Pi. You need a computer or Pi to run our exWebThrottle or JMRI and also to connect to the Arduino to run your trains (the exception to this is by using the [WiFi Option](wifi-setup.md)). A laptop or similar is needed in any case because you are going to need one to download the installer and the Raspebrry Pi image. You will then use it to run the installer to upload the program into the Arduino and copy the Raspberry Pi image you download to the MicroSD Card that goes in the Pi. NOTE: Optionally, you may just use the computer to download and burn the SDCard and then use the Pi to install the firmware onto the Arduino using our Installer. And lastly, you could install a WiFi Shield and use your mobile device as a controller using an app like Engine Driver.
+     As mentioned above you can also use your existing computer (PC, Mac, Linux) instead of a Pi. You need a computer or Pi to run our exWebThrottle or JMRI and to connect to the Arduino to run your trains (the exception to this is by using the [WiFi Option](wifi-setup.md)). A computer or Pi is needed in any case because you are going to need one to download the installer. You will then use the installer to upload the program into the Arduino and copy the Raspberry Pi image (if you use one) to the MicroSD Card that goes in the Pi. NOTE: Alternately, you could install an ESP8266 WiFi Shield and use your mobile device as a controller using an app like Engine Driver.
 
 #### Using an Uno
 
-While we recommend an Mega, you can use an Uno. However, due to memory and other limitations on an Uno, you will have limitations regarding the options you can choose. For example, you can't have Ethernet with an Uno. For a more detailed comparison of features and what you can and can't do with an Uno, please see [Microcontroller: Which one do I need?](../hardware/microcontrollers.md)
+While we recommend an Mega, you can use an Uno. However, due to memory and other limitations on an Uno, all the options will not be available. For example, you can't have Ethernet with an Uno. For a more detailed comparison of features and what you can and can't do with an Uno, please see [Microcontroller: Which one do I need?](../hardware/microcontrollers.md)
 
 #### Recap
 
