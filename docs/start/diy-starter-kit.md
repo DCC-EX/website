@@ -6,7 +6,7 @@ This guide is designed for do-it-yourselfers to build their own system. Anyone c
 * __Command Station:__ An Arduino with DCC++ software already uploaded and a Motor Controller Shield prepped and installed. This is often abbreviated to just "CS"
 
 !!! NOTE 
-    Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you can purchase just the Arduino Mega and Motorshield combination and use our exWebThrottle.
+    Keep in mind that if you just want to run trains and start without the separate Raspberry Pi and JMRI, you can purchase just the Arduino Mega and Motorshield combination and use our WebThrottle-EX.
 
 # What You Will Need
 
@@ -59,10 +59,10 @@ You can check Amazon, Ebay, AliExpress, Banggood, Adafruit, Sparkfun and others 
 * [Steve Todd's Raspberry Pi Image (If you wannt to use a Pi)](https://mstevetodd.com/rpi)
 * [JMRI (If you want to use a laptop or desktop)](https://www.jmri.org/)
 * [Arduino Software IDE to edit and upload changes (Optional)](https://www.arduino.cc/)
-* [exWebThrottle Controller](https://dcc-ex.com/throttles/ex-webthrottle/://)
+* [WebThrottle-EX Controller](https://dcc-ex.com/throttles/webthrottle-ex/://)
 
 !!! Note
-     As mentioned above you can also use your existing computer (PC, Mac, Linux) instead of a Pi. You need a computer or Pi to run our exWebThrottle or JMRI and to connect to the Arduino to run your trains (the exception to this is by using the [WiFi Option](wifi-setup.md)). A computer or Pi is needed in any case because you are going to need one to download the installer. You will then use the installer to upload the program into the Arduino and copy the Raspberry Pi image (if you use one) to the MicroSD Card that goes in the Pi. NOTE: Alternately, you could install an ESP8266 WiFi Shield and use your mobile device as a controller using an app like Engine Driver.
+     As mentioned above you can also use your existing computer (PC, Mac, Linux) instead of a Pi. You need a computer or Pi to run our WebThrottle-EX or JMRI and to connect to the Arduino to run your trains (the exception to this is by using the [WiFi Option](wifi-setup.md)). A computer or Pi is needed in any case because you are going to need one to download the installer. You will then use the installer to upload the program into the Arduino and copy the Raspberry Pi image (if you use one) to the MicroSD Card that goes in the Pi. NOTE: Alternately, you could install an ESP8266 WiFi Shield and use your mobile device as a controller using an app like Engine Driver.
 
 #### Using an Uno
 
@@ -80,7 +80,7 @@ This can be a little confusing, so let explain it a different way:
 
   4. You will need a controller that sends commands to the CS and controls your trains. That controller can be any one of the following:
 
-    1. A computer capable of running a Chromium based browser to use our exWebThrottle to connect to the CS via a USB cable. This computer does not need to be connected to the internet once you download the exWebThrottle files to your computer.
+    1. A computer capable of running a Chromium based browser to use our WebThrottle-EX to connect to the CS via a USB cable. This computer does not need to be connected to the internet once you download the WebThrottle-EX files to your computer.
 
     2. A computer running JMRI. JMRI connects via the USB cable to the CS and you control your trains with the Throttles built into JMRI. You can also use the WiThrottle server built into JMRI to connect any WiThrottle compatible controller (such as the Engine Driver mobile app) via WiFi to JMRI and control your layout that way. 
     

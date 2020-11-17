@@ -27,7 +27,7 @@ nav:
     - Automation: 'start/automation.md'
     - WIFI Configuration: 'start/wifi-config.md'
   - Throttles:
-    - exWebThrottle: 'throttles/ex-webthrottle.md'
+    - WebThrottle-EX: 'throttles/webthrottle-ex.md'
     - WiThrottle/Engine Driver: 'throttles/withrottle.md'
   - Support:
     - How To Get Support: 'support/get-support.md'
@@ -43,6 +43,7 @@ nav:
       - I2C Displays: 'hardware/i2c-displays.md'
       - Power Supplies: 'hardware/power-supplies.md'
     - Resources: 'reference/resources.md'
+    - Suppliers: 'reference/suppliers.md'
   - Downloads:
     - DCC++ Basestation: 'download/dccex-downloads.md'
     - Materials: 'download/dccex-materials-downloads.md'

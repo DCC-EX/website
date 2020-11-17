@@ -79,15 +79,15 @@ The options button lets you save labels to go on your function buttons for each 
 
 ## Try it now
  
-Just click this button and it will load a web page from our server that will run the web throttle on your machine. You can connect it to DCC++ EX or just run it in emulator mode where you don't have to have any hardware. Please read the instructions above for what is required to run exWebThrottle in your browser.
+Just click this button and it will load a web page from our server that will run the web throttle on your machine. You can connect it to DCC++ EX or just run it in emulator mode where you don't have to have any hardware. Please read the instructions above for what is required to run WebThrottle-EX in your browser.
 
-[Run exWebThrottle Now](../exwebthrottle/index.html "Run exWebThrottle Now"){: .downloadBtn}
+[Run WebThrottle-EX Now](../webthrottle-ex/index.html "Run WebThrottle-EX Now"){: .downloadBtn}
 
 ## Download
 
 Just download this zip file and extract it to any folder you have run permission on. Then run the index.html file.
 
-[exWebThrottle Zip File](https://dcc-ex.com/exwebthrottle/exwebthrottle.zip "exWebthrottle Zip file"){: .downloadBtn}
+[WebThrottle-EX Zip File](https://dcc-ex.com/webthrottle-ex/exwebthrottle.zip "Webthrottle-EX Zip file"){: .downloadBtn}
 
 ## Going Further / Developing
 

@@ -131,13 +131,13 @@ __Exit the Arduino IDE software__.
 
 # Run you trains!
 
-Making sure power is off to your track, place your DCC enabled loco (not DCC ready! Ready just means it has the plumbing inside the loco to install an optional DCC decoder, but it is NOT yet DCC compatible). Now either download our exWebThrottle found here [exWebThrottle](../throttles/ex-webthrottle.md) and run it in your browser, or run it directly from our web page. Follow the instructions on that page to enable chromium "experimental features".
+Making sure power is off to your track, place your DCC enabled loco (not DCC ready! Ready just means it has the plumbing inside the loco to install an optional DCC decoder, but it is NOT yet DCC compatible). Now either download our WebThrottle-EX found here [WebThrottle-EX](../throttles/webthrottle=ex.md) and run it in your browser, or run it directly from our web page. Follow the instructions on that page to enable chromium "experimental features".
 
-The rest of the instructions show you how to use exWebThrottle. You should be able to find the CS by its serial port and enable it, then turn on the track power, then acquire your loco by its ID. After that, you should be able to use the throttle slider and function buttons to operate you locomotive!
+The rest of the instructions show you how to use WebThrottle-EX. You should be able to find the CS by its serial port and enable it, then turn on the track power, then acquire your loco by its ID. After that, you should be able to use the throttle slider and function buttons to operate you locomotive!
 
-You can also watch the [exWebThrottle Video](https://www.youtube.com/watch?v=BkgsEOjxWaU) by clicking the hyperlink in this sentence.
+You can also watch the [WebThrottle-EX Video](https://www.youtube.com/watch?v=BkgsEOjxWaU) by clicking the hyperlink in this sentence.
 
-NEXT: Test with exWebThrottle [exWebThrottle Page](../throttles/ex-webthrottle.md)
+NEXT: Test with WebThrottle-EX [WebThrottle-EX Page](../throttles/webthrottle-ex.md)
 
 link to using WiFi and Engine driver - coming soon
 

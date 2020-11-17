@@ -1,9 +1,9 @@
 ## DCC++ EX Command Reference ##
 [DCC++ EX](https://github.com/DCC-EX/CommandStation-EX) Provides an Application Programming Interface (API) that other applications use to send simple text commands that can operate your Command Station. Several "front end" controllers are available or you can easily create your own. Here are some examples:
 
-* exWebThrottle - Our DCC++ EX browser based throttle using your USB cable<br>
-    [See it and run from the web here](https://www.dcc-ex.com/exwebthrottle)<br>
-    [Download and run from your computer](https://github.com/DCC-EX/exWebThrottle)
+* WebThrottle-EX - Our DCC++ EX browser based throttle using your USB cable<br>
+    [See it and run from the web here](https://www.dcc-ex.com/webthrottle-ex)<br>
+    [Download and run from your computer](https://github.com/DCC-EX/WebThrottle-EX)
 
 * Engine Driver - Cellphone App WiFi Throttle  
 * The Command Line from a Serial Monitor like the Arduino Serial Monitor or Putty<br>

@@ -4,7 +4,7 @@ There are many ways to add Wifi to your CS. We will cover three methods here. An
 
 ## Why Use WiFi?
 
-The biggest reason many people want to add WiFi is to go wireless! With the base CS consisting of an Arduino Mega and an Arduino Motor Shield, you must use a serial cable to connect to a computer to run JMRI, our exWebThrottle, or other another Controller. The controller is what sends commands to the CS to run your trains and control your accessories.
+The biggest reason many people want to add WiFi is to go wireless! With the base CS consisting of an Arduino Mega and an Arduino Motor Shield, you must use a serial cable to connect to a computer to run JMRI, our WebThrottle-EX, or other another Controller. The controller is what sends commands to the CS to run your trains and control your accessories.
 
 An astute observer may note that you can go wireless when using software like JMRI. That's true! But you need another computer to do it. With DCC++ EX WiFi, you can connect directly to your CS from any WiThrottle capable throttle, such as the Engine Driver phone app.
 

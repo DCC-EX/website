@@ -314,7 +314,7 @@ function deleteFuncData(name){
   }
 }
 
-// Returns the AppData of ExWebThrottle
+// Returns the AppData of WebThrottle-EX
 function getWebData(){
   return JSON.parse(window.localStorage.getItem('locoData'));
 }

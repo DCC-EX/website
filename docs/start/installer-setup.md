@@ -200,13 +200,13 @@ This is the "status" command and reports your version, types of boards you are u
 
 There are a lot of other commands you can enter here. As a matter of fact, you could use the serial monitor to test any of the DCC-EX API (application programming interface) commands. You could even program your loco. Please see the [DCC++ EX Wiki](https://github.com/DCC-EX/CommandStation-EX/wiki) or the DCC++ Commands page for a list of commands <insert link here>
 
-### Using exWebthrottle
+### Using Webthrottle-EX
 
-![exWebThrottle](../images/installer/exwebthrottle.jpg)
+![WebThrottle-EX](../images/installer/exwebthrottle.jpg)
 <br>
-Figure 10 - exWebThrottle
+Figure 10 - WebThrottle-EX
 
-Click this link: [exWebThrottle](..//throttles/ex-webthrottle.md) to go to the exWebThrottle web page where you have a choice to either run the throttle immediatly from our server or download a zip file that you can unzip and run in a browser from your local machine. This is the fastest way to get started.
+Click this link: [WebThrottle](..//throttles/webthrottle-ex.md) to go to the WebThrottle-EX web page where you have a choice to either run the throttle immediatly from our server or download a zip file that you can unzip and run in a browser from your local machine. This is the fastest way to get started.
 
 ### Using Engine Driver (or other WiThrottle CAB) - Requires WiFi
 
